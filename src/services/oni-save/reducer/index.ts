@@ -5,6 +5,7 @@ import changeGeyserTypeReducer from "./change-geyser-type";
 import cloneDuplicantReducer from "./clone-duplicant";
 import copyBehaviorsReducer from "./copy-behaviors";
 import deleteLooseMaterial from "./delete-looe-material";
+import deleteRawReducer from "./delete-raw";
 import importWarnChecksumReducer from "./import-warn-checksum";
 import loadExampleSaveReducer from "./load-example";
 import loadOniSaveReducer from "./load-onisave";
@@ -17,6 +18,7 @@ import modifyRawReducer from "./modify-raw";
 import parseProgressReducer from "./parse-progress";
 import pasteBehaviorsReducer from "./paste-behaviors";
 import receiveOniSaveReducer from "./receive-onisave";
+import renameRawReducer from "./rename-raw";
 
 export default reduceReducers(
   changeGeyserParameter,
@@ -24,6 +26,7 @@ export default reduceReducers(
   cloneDuplicantReducer,
   copyBehaviorsReducer,
   deleteLooseMaterial,
+  deleteRawReducer,
   importWarnChecksumReducer,
   loadExampleSaveReducer,
   loadOniSaveReducer,
@@ -35,5 +38,6 @@ export default reduceReducers(
   modifyRawReducer,
   parseProgressReducer,
   pasteBehaviorsReducer,
-  receiveOniSaveReducer
+  receiveOniSaveReducer,
+  renameRawReducer
 );
